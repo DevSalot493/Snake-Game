@@ -1,0 +1,24 @@
+<html class="grad2">
+	<head>
+    		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Snake Game</title>
+	</head>
+	<body>
+    		<div id="score">0</div></br>
+    		<canvas id="snakeboard" width="450" height="450" style="padding-top: 30px;"></canvas>
+		<link rel="stylesheet" href="ms.css">
+    		<script type="text/javascript" src="ms.js"></script>
+		<div class="b">
+			<button class="bigbutt" onclick="location.href = 'ms.html'">Quit Game</button></br></br></br>
+			<button class="bigbutt" onclick="location.href = 'ms2.html'">Restart Game</button>
+		</div>
+		<div class="f">
+        		<form id="frm1" action="server.php" method="POST">
+            			<input type="text" id="name2" name="name2" hidden />
+            			<input type="text" id="score1" name="score1" hidden />
+        		</form>
+			<button class="bigbutt" onclick="scoreboard()">View Scoreboard</button>
+		</div>
+	</body>
+</html>
