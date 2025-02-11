@@ -1,0 +1,25 @@
+.tab 
+{
+	align-items: center;
+    	width: 40%;
+    	height: 70%;
+    	text-align: center;
+    	border-collapse: collapse;
+    	font-size: 20px;
+}
+
+.grad3 
+{
+    	background-color: rgb(50, 199, 132);
+}
+
+.ech
+{
+    	font-size: 25px;
+    	font-weight: bold;
+}
+
+tr:nth-child(even) 
+{
+	background-color: #999da5;
+}
